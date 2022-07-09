@@ -198,3 +198,67 @@ let  Students2 = [
 Students2.forEach(function(el){
     console.log(`${el.firstName}:${el.skills.length}`)
 })
+
+
+let stds=[
+    {
+        firstName:"yogesh",
+        lastName:"ambre",
+        rollNo: 38,
+        skills:['javascript','python','css'],
+        city:'pune',
+        age:27
+    },
+    {
+        firstName:'harshal',
+        lastName:'ambre',
+        rollNo:23,
+        skills:['SAP','ORACLE','Excel'],
+        city:'pune',
+        age:25
+    },
+    {
+        firstName:'ganesh',
+        lastName:'nawale',
+        rollNo:27,
+        skills:['SAP','powerbi','Excel'],
+        city:'sangamner',
+        age:28
+    },
+    {
+        firstName:'sarthak',
+        lastName:'nawale',
+        rollNo:23,
+        skills:['Autocad','design','Excel'],
+        city:'Nashik',
+        age:22
+    } 
+]
+
+//search people with pune city
+
+stds.forEach(function(el){
+    if(el.city==='pune'){
+        console.log(el.firstName )
+    }
+})
+
+//print name of user with number of skills
+
+stds.forEach(function(el){
+    console.log(el.firstName, el.skills.length)
+})
+
+//person with city Nashik and skill Excel
+
+stds.forEach(function(el){
+    if(el.city==="Nashik"&& el.skills.includes('Excel')){
+        console.log(el.firstName)
+    }
+
+})
+
+let r=stds.filter(function(el){
+    return el.city==='Nashik'&& el.skills.includes('Excel')
+})
+

@@ -56,11 +56,11 @@ let Person1= function(fn,ln,ag,rn){
         console.log(this.firstName , this.lastName)
     }
 }
-let yogesh1 = new Person("yogesh1","ambre",15,41)
-let yogesh2 = new Person("yogesh2","ambre",15,42)
-let yogesh3 = new Person("yogesh3","ambre",16,43)
-let yogesh4 = new Person("yogesh4","ambre",16,44)
-let yogesh5 = new Person("yogesh5","ambre",17,45)
+let yogesh1 = new Person1("yogesh1","ambre",15,41)
+let yogesh2 = new Person1("yogesh2","ambre",15,42)
+let yogesh3 = new Person1("yogesh3","ambre",16,43)
+let yogesh4 = new Person1("yogesh4","ambre",16,44)
+let yogesh5 = new Person1("yogesh5","ambre",17,45)
 
 let student3=[yogesh1,yogesh2,yogesh3,yogesh4,yogesh5]
 
@@ -98,3 +98,28 @@ Supriya.displayName()
 console.log(vrushali.__proto__ === Person3.prototype)
 console.log(Supriya.__proto__=== Person3.prototype)
 
+Person3.prototype.lang = "Hindi"
+
+
+console.log(vrushali instanceof Person3)
+
+console.log(vrushali.hasOwnProperty('firstName'))
+
+console.log(vrushali.lang)
+
+console.log(vrushali.hasOwnProperty('lang'))
+
+// Protype inheritance 
+
+// Es6 class 
+
+// Setting the property of object outside the class
+class Person4 {
+    firstName = undefined
+    lastName = undefined
+    rollNo = undefined
+    age =  undefined
+}
+
+let amol5 =  new Person4('amol')
+console.log(amol5)
