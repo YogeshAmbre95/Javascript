@@ -1,0 +1,6 @@
+Palindrome: 
+In simple terms, when the numbers, strings, or characters are reversed that return the same result 
+as the original numbers or characters, it is called a Palindrome.
+For example, NITIN, 123454321, madam, etc. Suppose we have a word, madam. 
+When we read the word madam from the forward and the backward end, it returns the same string.
+Therefore, we can refer to the string or number as the Palindrome.

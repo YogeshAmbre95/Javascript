@@ -1,0 +1,34 @@
+h1{
+    color: black;
+    background-color:red;
+    width: 150;
+    height: 150;
+}
+
+/* p{
+    color: blue;
+    background-color: chocolate;
+    width: 100;
+    height: 100;
+} */
+
+#three{
+    color: blue;
+    background-color: red;
+    width: 100;
+    height: 100;
+}
+
+.one{
+    color: #ff0077;
+    background-color: rgb(106, 0, 255);
+    width: 100;
+    height: 100;
+}
+
+.two{
+    color: navy;
+    background-color: red;
+    width: 200;
+    height: 200;
+}

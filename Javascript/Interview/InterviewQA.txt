@@ -1,0 +1,31 @@
+1) what is different between let and const and var?
+
+-var declarations are globally scoped or function scoped while let and const are block scoped.
+-var variables can be updated and re-declared within its scope.
+-let variables can be updated but not re-declared
+-const variables can neither be updated nor re-declared.
+
+
+2) What is closure in javscript?
+-A closure can be defined as a JavaScript feature in which the inner function has access to
+ the outer function variable. 
+
+3) What is hoisting ?
+- In JavaScript, Hoisting is the default behavior of moving all the declarations at the top of the scope before code execution.
+  Basically, it gives us an advantage that no matter where functions and variables are declared,
+  they are moved to the top of their scope regardless of whether their scope is global or local. 
+
+4) what is destructuring 
+- Destructuring is a new feature in JavaScript, which introduced in ES6 2015. 
+  It breaks objects or arrays into the variables.
+
+5) what is rest and spread?
+-The rest operator(…) allows us in destructuring array or objects.
+-The spread operator (…) allows us to expand an iterable like array into its individual elements.
+
+6) what is scope of variable in js?
+-JavaScript has two types of variable scopes: global and local.
+
+7) what is lexical scope in js?
+- lexical scope is a variable defined outside your scope or upper scope is automatically available 
+  inside your scope which means you don't need to pass it there.
